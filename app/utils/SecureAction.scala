@@ -1,11 +1,10 @@
-package controllers
+package utils
 
 import javax.inject.Inject
 import model.User
 import org.slf4j.LoggerFactory
 import play.api.http.HeaderNames
 import play.api.mvc._
-import utils.AuthService
 
 import scala.concurrent.{ExecutionContext, Future}
 

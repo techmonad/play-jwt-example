@@ -25,7 +25,7 @@ class TokenController @Inject()(
           val json = Json.toJson(Map("token" -> authService.encodeToken(user)))
           Ok(json)
         case None =>
-          Ok("Email does not exist")
+          BadRequest("Email does not exist")
       }
     })
   }

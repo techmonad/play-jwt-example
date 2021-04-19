@@ -6,6 +6,7 @@ import play.api.libs.json.Json
 import play.api.mvc._
 import service.UserService
 import utils.JsonFormatter._
+import utils.{SecureAction, UserRequest}
 
 @Singleton
 class ApiController @Inject()(
