@@ -12,6 +12,6 @@ libraryDependencies ++=
   Seq(
     guice,
     "com.github.jwt-scala" %% "jwt-core" % "7.1.3",
-    "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+    "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test
   )
 
