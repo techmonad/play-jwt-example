@@ -11,7 +11,7 @@ scalaVersion := "2.13.5"
 libraryDependencies ++=
   Seq(
     guice,
-    "com.github.jwt-scala" %% "jwt-core" % "7.1.4",
+    "com.github.jwt-scala" %% "jwt-core" % "7.1.5",
     "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test
   )
 
